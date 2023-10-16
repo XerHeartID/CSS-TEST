@@ -1,0 +1,112 @@
+/* FLEXBOX */
+div.container > div{
+    background-color: salmon;
+    margin: 10px;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    background-color: khaki;
+    display: flex;
+}
+
+.container{
+    height: 400px;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+/* PROPERTY FLEXBOX :
+    1. flex-direction
+    2. flex-wrap
+    3. flex-flow
+    4. justify-content
+    5. align-items
+    6. align-content
+    7. dll...
+*/
+
+/* FLEX DIRECTION */
+/* 
+    row
+    row-reverse
+    column
+    column-reverse
+*/
+.container{
+    /* flex-direction: row; */
+}
+
+/* FLEX WRAP */
+/* 
+    wrap
+    wrap-reverse
+    nowrap
+*/
+.container{
+    /* flex-wrap: wrap; */
+}
+
+/* FLEX FLOW 
+GABUNGAN ANTARA FLEX DIRECTION DAN FLEX WRAP (SHORTHAND)
+*/
+/* 
+    selector{
+        flex-flow: flex_direction flex_wrap;
+    }
+*/
+.container{
+    /* flex-flow: row wrap; */
+}
+
+/* JUSTIFY CONTENT */
+/* 
+    center
+    space-around
+    space-between
+    space-evenly
+    start
+    end
+    flex-start
+    flex-end
+*/
+.container{
+    /* justify-content: center; */
+}
+
+/* ALIGN ITEMS */
+/* 
+    baseline
+    stretch
+    flex-start
+    flex-end
+    center
+*/
+.container{
+    /* height: 200px;
+    align-items: center; */
+}
+
+/* ALIGN CONTENT */
+/* 
+    center
+    space-around
+    space-between
+    space-evenly
+    start
+    end
+    flex-start
+    flex-end
+*/
+.container{
+    /* height: 400px;
+    flex-wrap: wrap;
+    align-content: center; */
+}
